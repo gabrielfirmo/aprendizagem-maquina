@@ -47,9 +47,9 @@ O problema de clustering consiste em agrupar amostras semelhantes de um conjunto
 ![](https://latex.codecogs.com/gif.latex?p_0%20%3D%20%5Cfrac%7B1%7D%7B3%7D)
 
 
-![](https://latex.codecogs.com/gif.latex?%5Cbar%7B%5Cmathbf%7Bx%7D%7D_1%20%3D%20%5Cbegin%7Bbmatrix%7D%206.588%5C%5C%202.974%5C%5C%205.552%5C%5C%202.026%20%5Cend%7Bbmatrix%7D)
+![](https://latex.codecogs.com/gif.latex?%5Cbar%7B%5Cmathbf%7Bx%7D%7D_1%20%3D%20%5Cbegin%7Bbmatrix%7D%205.936%5C%5C%202.77%5C%5C%204.26%5C%5C%201.326%20%5Cend%7Bbmatrix%7D)
 
-![](https://latex.codecogs.com/gif.latex?%5Cmathbf%7B%5CSigma%7D_1%20%3D%20%5Cbegin%7Bbmatrix%7D%200.40434286%20%26%200.09376327%20%26%200.3032898%20%26%200.04909388%5C%5C%200.09376327%20%26%200.10400408%20%26%200.07137959%20%26%200.04762857%5C%5C%200.3032898%20%26%200.07137959%20%26%200.30458776%20%26%200.04882449%5C%5C%200.04909388%20%26%200.04762857%20%26%200.04882449%20%26%200.07543265%20%5Cend%7Bbmatrix%7D)
+![](https://latex.codecogs.com/gif.latex?%5Cmathbf%7B%5CSigma%7D_1%20%3D%20%5Cbegin%7Bbmatrix%7D%200.26643265%20%26%200.08518367%20%26%200.18289796%20%26%200.05577959%5C%5C%200.08518367%20%26%200.09846939%20%26%200.08265306%20%26%200.04120408%5C%5C%200.18289796%20%26%200.08265306%20%26%200.22081633%20%26%200.07310204%5C%5C%200.05577959%20%26%200.04120408%20%26%200.07310204%20%26%200.03910612%20%5Cend%7Bbmatrix%7D)
 
 ![](https://latex.codecogs.com/gif.latex?p_1%20%3D%20%5Cfrac%7B1%7D%7B3%7D)
 
