@@ -41,7 +41,9 @@ O problema de clustering consiste em agrupar amostras semelhantes de um conjunto
 
 
 ![](https://latex.codecogs.com/gif.latex?%5Cbar%7B%5Cmathbf%7Bx%7D%7D_0%20%3D%20%5Cbegin%7Bbmatrix%7D%205.006%5C%5C%203.418%5C%5C%201.464%5C%5C%200.244%20%5Cend%7Bbmatrix%7D)
+
 ![](https://latex.codecogs.com/gif.latex?%5Cmathbf%7B%5CSigma%7D_0%20%3D%20%5Cbegin%7Bbmatrix%7D%200.12424898%20%26%200.10029796%20%26%200.01613878%20%26%200.01054694%5C%5C%200.10029796%20%26%200.14517959%20%26%200.01168163%20%26%200.01143673%5C%5C%200.01613878%20%26%200.01168163%20%26%200.03010612%20%26%200.00569796%5C%5C%200.01054694%20%26%200.01143673%20%26%200.00569796%20%26%200.01149388%20%5Cend%7Bbmatrix%7D)
+
 ![](https://latex.codecogs.com/gif.latex?p_0%20%3D%20%5Cfrac%7B1%7D%7B3%7D)
 
 
