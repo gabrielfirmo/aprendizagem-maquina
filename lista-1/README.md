@@ -80,8 +80,11 @@ Aplicando o classificador Bayesiano ao dataset Wine, obtém-se a seguinte matriz
 
 Assim, as taxas de acerto para as classes são: 
 **Classe 1:** 59/59 = 100 %
+
 **Classe 2:** 70/71 = 98.59 %
+
 **Classe 3:** 47/48 = 97.92  %
+
 **Total:** 176/178 = 98.88 %
 
 Para utilizar o classificador KNN deve-se antes definir o parâmetro k e a métrica de distância. No gráfico abaixo são mostradas as taxas de acerto total para diferentes valores de k e métrica de distância.
@@ -97,8 +100,11 @@ A partir do gráfico, observa-se que a maior taxa de acerto é obtida com k=1 e 
 |      **3**       |  3   |  3   |  42  |
 
 **Classe 1:** 52/59 = 88.14 %
+
 **Classe 2:** 59/71 = 83.10 %
+
 **Classe 3:** 42/48 = 87.50  %
+
 **Total:** 153/178 = 85.96 %
 
 ## Referências
