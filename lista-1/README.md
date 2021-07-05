@@ -66,3 +66,42 @@ Os resultados foram obtidos utilizando o script em _Python_ **_createStatisticsI
 
 **Questão 6:** Considerando a base de dados "wine", implemente um classificador para determinar a que classe um determinado vinho pertence. O classificador deve apresentar uma saída por classe e deve ser um das seguintes opções: KNN ou Bayesiano. Para determinar a taxa de acerto do sistema deve ser utilizada validação cruzada 5 folds e o resultado deve ser plotado utilizando uma matriz de confusão.
 
+**R:** A implementação dos classificadores Bayesiano e KNN estão no script **_classifiers.py_**. Eles são aplicados aos datasets Iris e Wine utilizando o método de validação cruzada k-folds com k = 5, esta tarefa é executada pelos scripts **_classifyIris.py_** e **_classifyWine.py_**. Os métodos auxiliares estão em **_tools.py_**.
+
+**Resultados para o dataset Wine**
+Aplicando o classificador Bayesiano ao dataset Wine, obtém-se a seguinte matriz confusão: 
+
+| Predicted  Class → |  1   |  2   |  3   |
+| :--------------: | :--: | :--: | :--: |
+|  **True Class** ↓ |      |      |      |
+|      **1**       |  59  |  0   |  0   |
+|      **2**       |  1   |  70  |  0   |
+|      **3**       |  0   |  1   |  47  |
+
+Assim, as taxas de acerto para as classes são: 
+**Classe 1:** 59/59 = 100 %
+**Classe 2:** 70/71 = 98.59 %
+**Classe 3:** 47/48 = 97.92  %
+**Total:** 176/178 = 98.88 %
+
+Para utilizar o classificador KNN deve-se antes definir o parâmetro k e a métrica de distância. No gráfico abaixo são mostradas as taxas de acerto total para diferentes valores de k e métrica de distância.
+![](https://raw.githubusercontent.com/gabrielfirmo/aprendizagem-maquina/master/lista-1/img/wineKNN.png)
+
+A partir do gráfico, observa-se que a maior taxa de acerto é obtida com k=1 e métrica do cosseno. Para este modelo obtém-se a seguinte matriz confusão:
+
+| Predicted  Class → |  1   |  2   |  3   |
+| :--------------: | :--: | :--: | :--: |
+|  **True Class** ↓ |      |      |      |
+|      **1**       |  52  |  6   |  1   |
+|      **2**       |  3   |  59  |  9   |
+|      **3**       |  3   |  3   |  42  |
+
+**Classe 1:** 52/59 = 88.14 %
+**Classe 2:** 59/71 = 83.10 %
+**Classe 3:** 42/48 = 87.50  %
+**Total:** 153/178 = 85.96 %
+
+## Referências
+[Classificador KNN](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+[Classificador Bayesiano](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+Duda, R.O., Hart, P.E. and Stork, D.G. (2001) Pattern Classification. John Wiley and Sons, New York. 

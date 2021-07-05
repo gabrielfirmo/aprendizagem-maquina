@@ -5,7 +5,7 @@ from classifiers import *
 """Classificação do dataset Iris """
 
 # Parâmetros
-k = 5
+k = 1
 numClasses = 3
 numFolds = 5
 
