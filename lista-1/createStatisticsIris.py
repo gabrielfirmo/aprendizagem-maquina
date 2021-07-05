@@ -1,5 +1,5 @@
 # Módulo criado para auxiliar no desenvolvimento dos algoritmos
-from utils import *
+from tools import *
 
 #Xi são as matrizes de dados do dataset Iris para cada classe i
 X, X0, X1, X2 = readIrisDataset('datasets/iris/iris.data')
