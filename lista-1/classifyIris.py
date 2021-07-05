@@ -23,8 +23,8 @@ for i in range(numFolds):
 print("Confusion KNN")
 print(confusion)
 hits = confusion.trace(dtype=int)
-miss = np.sum(confusion, dtype=int)
-print(f"Hit ratio = {hits}/{miss} = {hits/miss*100:.2f} %\n")
+total = np.sum(confusion, dtype=int)
+print(f"Hit ratio = {hits}/{total} = {hits / total * 100:.2f} %\n")
 
 # Utilizando o classificador Bayesiano
 confusion = np.zeros((numClasses, numClasses))
@@ -35,6 +35,6 @@ for i in range(numFolds):
 print("Confusion Bayes")
 print(confusion)
 hits = confusion.trace(dtype=int)
-miss = np.sum(confusion, dtype=int)
-print(f"Hit ratio = {hits}/{miss} = {hits/miss*100:.2f} %\n")
+total = np.sum(confusion, dtype=int)
+print(f"Hit ratio = {hits}/{total} = {hits / total * 100:.2f} %\n")
 

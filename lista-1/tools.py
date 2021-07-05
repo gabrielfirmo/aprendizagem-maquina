@@ -64,10 +64,10 @@ def euclidianDistance(x,y):
     return d
 
 # Função para calcular a similaridade entre dois vetores
-# Recomenda-se usar apenas quando o produto interno entre os vetores é sempre positivo
+# Quando cos=1 a similaridade é máxima, logo a distância é mínima. Portanto retorna-se o negativo do cos
 def cosineSimilarity(x,y):
     cos = x.dot(y)/(np.linalg.norm(x)*np.linalg.norm(y))
-    return 1-cos
+    return -cos
 
 # Função para determinar os conjuntos de treino e teste de acordo com o método de validação cruzada k-folds
 def kFolds(k,X):
