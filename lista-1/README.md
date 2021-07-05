@@ -79,6 +79,7 @@ Aplicando o classificador Bayesiano ao dataset Wine, obtém-se a seguinte matriz
 |      **3**       |  0   |  1   |  47  |
 
 Assim, as taxas de acerto para as classes são: 
+
 **Classe 1:** 59/59 = 100 %
 
 **Classe 2:** 70/71 = 98.59 %
@@ -98,6 +99,8 @@ A partir do gráfico, observa-se que a maior taxa de acerto é obtida com k=1 e 
 |      **1**       |  52  |  6   |  1   |
 |      **2**       |  3   |  59  |  9   |
 |      **3**       |  3   |  3   |  42  |
+
+Assim, as taxas de acerto para as classes são:
 
 **Classe 1:** 52/59 = 88.14 %
 
