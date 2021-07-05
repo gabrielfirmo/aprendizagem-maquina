@@ -112,5 +112,7 @@ Assim, as taxas de acerto para as classes são:
 
 ## Referências
 [Classificador KNN](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+
 [Classificador Bayesiano](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+
 Duda, R.O., Hart, P.E. and Stork, D.G. (2001) Pattern Classification. John Wiley and Sons, New York. 
