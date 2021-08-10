@@ -23,7 +23,7 @@ O problema de clustering consiste em agrupar amostras semelhantes de um conjunto
 
 **R:** Um problema é dito linearmente separável quando as classes de seu conjunto de dados podem ser separadas por um ente linear (linha, plano, hiperplano, etc...). A figura a seguir ilustra um conjunto linearmente separável e outro não, no caso bidimensional.
 
-![](https://jtsulliv.github.io/images/perceptron/linsep_new.png?raw=True)
+![](https://i.stack.imgur.com/OrcTJ.png)
 
 
 
